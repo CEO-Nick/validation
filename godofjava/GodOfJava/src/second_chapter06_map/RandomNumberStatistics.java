@@ -1,5 +1,6 @@
 package second_chapter06_map;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Random;
 import java.util.Set;
@@ -8,6 +9,12 @@ public class RandomNumberStatistics {
     public static void main(String[] args) {
         RandomNumberStatistics sample = new RandomNumberStatistics();
         sample.getRandomNumberStatistics();
+
+        HashMap<String, String> hashMap = new HashMap<>();
+        hashMap.put("1", null);
+        if (hashMap.get("1") == null) {
+            System.out.println(hashMap.get("1"));
+        }
     }
 
     private final int DATA_BOUNDARY = 50;
