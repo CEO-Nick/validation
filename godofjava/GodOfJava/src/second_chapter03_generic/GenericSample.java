@@ -1,4 +1,4 @@
-package Second_Chapter03_Generic;
+package second_chapter03_generic;
 
 public class GenericSample {
     public static void main(String[] args) {

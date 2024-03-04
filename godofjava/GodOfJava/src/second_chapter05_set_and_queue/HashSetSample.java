@@ -1,4 +1,4 @@
-package Second_Chapter05_Set_and_Queue;
+package second_chapter05_set_and_queue;
 
 import java.util.HashSet;
 
